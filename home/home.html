@@ -1,0 +1,22 @@
+<div class="container" >
+    <!--Parent Scope -->
+    <zoo>
+      <!--New Directive is inserted into parent directive
+        by transclusion.
+        There scopes are seperate siblings of one another -->
+      <exhibit animals="arctic.stock" 
+      select="arctic.select" 
+      welcome="arctic.welcome" 
+      cages="arctic.cages">
+      </exhibit>
+
+      <exhibit animals="safari.stock" 
+      select="safari.select"
+      welcome="safari.welcome" 
+      cages="safari.cages">  
+      </exhibit>
+
+      
+    </zoo>
+  
+</div>
